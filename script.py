@@ -68,7 +68,6 @@ def multipleVille():
         if villes_demande.isalpha():
             if villes_demande in villes:
                 entry_villes.append(villes_demande)
-                print("oui")
             else:
                 print("\nVeuillez demander une ville présente dans notre base de données, situé dans le fichier dictionnaire.py \n")
         elif villes_demande.isalpha() == False and villes_demande != "":
